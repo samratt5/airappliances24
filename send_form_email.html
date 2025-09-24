@@ -9,15 +9,19 @@ window.addEventListener('DOMContentLoaded', () => {
     // Get query parameters from URL
     const params = new URLSearchParams(window.location.search);
 
-    const service = encodeURIComponent(params.get('service') || '');
-    const type = encodeURIComponent(params.get('type') || '');
-    const name = encodeURIComponent(params.get('name') || '');
-    const phone = encodeURIComponent(params.get('phone') || '');
-    const city = encodeURIComponent(params.get('city') || '');
+    // Decode each parameter
+    const service = params.get('service') ? decodeURIComponent(params.get('service')) : '';
+    const type = params.get('type') ? decodeURIComponent(params.get('type')) : '';
+    const name = params.get('name') ? decodeURIComponent(params.get('name')) : '';
+    const phone = params.get('phone') ? decodeURIComponent(params.get('phone')) : '';
+    const city = params.get('city') ? decodeURIComponent(params.get('city')) : '';
 
     if(service && type && name && phone && city) {
         const whatsappNumber = "918250791200";
-        const message = `New Service Booking:%0AService: ${service}%0AType: ${type}%0AName: ${name}%0APhone: ${phone}%0ALocation: ${city}`;
+        // Encode the message properly for WhatsApp
+        const message = encodeURIComponent(
+            `New Service Booking:\nService: ${service}\nType: ${type}\nName: ${name}\nPhone: ${phone}\nLocation: ${city}`
+        );
         const whatsappURL = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${message}`;
         // Redirect to WhatsApp
         window.location.href = whatsappURL;
