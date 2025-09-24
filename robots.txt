@@ -12,4 +12,5 @@ Disallow: /search/
 
 # Sitemap location
 
-Sitemap: https://www.airappliances.in/sitemap.xml
+Sitemap: https://airappliances.in/sitemap.xml
+
