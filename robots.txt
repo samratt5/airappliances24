@@ -11,4 +11,5 @@ Disallow: /checkout/
 Disallow: /search/
 
 # Sitemap location
-Sitemap: https://airappliances.in/sitemap.xml
+
+Sitemap: https://www.airappliances.in/sitemap.xml
