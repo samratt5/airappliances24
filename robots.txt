@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Block common unnecessary files/folders
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /search/
+
+# Sitemap location
+Sitemap: https://airappliances.in/sitemap.xml

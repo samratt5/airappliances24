@@ -1,0 +1,592 @@
+Uri: https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
+File Name: C:\Downloaded Web Sites\www.airappliances\ajax\libs\jquery\1.7.2\jquery.min.js
+Content Type: text/javascript
+
+Uri: https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800
+File Name: C:\Downloaded Web Sites\www.airappliances\css-1
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjWVAexQ.ttf
+File Name: C:\Downloaded Web Sites\www.airappliances\s\opensans\v44\memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjWVAexQ.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkWVAexQ.ttf
+File Name: C:\Downloaded Web Sites\www.airappliances\s\opensans\v44\memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkWVAexQ.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWVAexQ.ttf
+File Name: C:\Downloaded Web Sites\www.airappliances\s\opensans\v44\memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWVAexQ.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjWVAexQ.ttf
+File Name: C:\Downloaded Web Sites\www.airappliances\s\opensans\v44\memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjWVAexQ.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjWVAexQ.ttf
+File Name: C:\Downloaded Web Sites\www.airappliances\s\opensans\v44\memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjWVAexQ.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4gaVc.ttf
+File Name: C:\Downloaded Web Sites\www.airappliances\s\opensans\v44\memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4gaVc.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4gaVc.ttf
+File Name: C:\Downloaded Web Sites\www.airappliances\s\opensans\v44\memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4gaVc.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1x4gaVc.ttf
+File Name: C:\Downloaded Web Sites\www.airappliances\s\opensans\v44\memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1x4gaVc.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4gaVc.ttf
+File Name: C:\Downloaded Web Sites\www.airappliances\s\opensans\v44\memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4gaVc.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVc.ttf
+File Name: C:\Downloaded Web Sites\www.airappliances\s\opensans\v44\memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVc.ttf
+Content Type: font/ttf
+
+Uri: https://www.airappliances/
+File Name: C:\Downloaded Web Sites\www.airappliances\index.htm
+Content Type: text/html
+
+Uri: https://www.airappliances/about.html
+File Name: C:\Downloaded Web Sites\www.airappliances\about.html
+Content Type: text/html
+
+Uri: https://www.airappliances/ac repair in Kolkata.html
+File Name: C:\Downloaded Web Sites\www.airappliances\ac repair in Kolkata.html
+Content Type: text/html
+
+Uri: https://www.airappliances/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\www.airappliances\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://www.airappliances/css/main.css
+File Name: C:\Downloaded Web Sites\www.airappliances\css\main.css
+Content Type: text/css
+
+Uri: https://www.airappliances/css/responsive.css
+File Name: C:\Downloaded Web Sites\www.airappliances\css\responsive.css
+Content Type: text/css
+
+Uri: https://www.airappliances/css/social-icons.css
+File Name: C:\Downloaded Web Sites\www.airappliances\css\social-icons.css
+Content Type: text/css
+
+Uri: https://www.airappliances/fonts/glyphicons-halflings-regular.eot
+File Name: C:\Downloaded Web Sites\www.airappliances\fonts\glyphicons-halflings-regular.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.airappliances/fonts/glyphicons-halflings-regular.eot?
+File Name: C:\Downloaded Web Sites\www.airappliances\fonts\glyphicons-halflings-regular-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.airappliances/fonts/glyphicons-halflings-regular.svg
+File Name: C:\Downloaded Web Sites\www.airappliances\fonts\glyphicons-halflings-regular.svg
+Content Type: image/svg+xml
+
+Uri: https://www.airappliances/fonts/glyphicons-halflings-regular.ttf
+File Name: C:\Downloaded Web Sites\www.airappliances\fonts\glyphicons-halflings-regular.ttf
+Content Type: font/ttf
+
+Uri: https://www.airappliances/fonts/glyphicons-halflings-regular.woff
+File Name: C:\Downloaded Web Sites\www.airappliances\fonts\glyphicons-halflings-regular.woff
+Content Type: font/woff
+
+Uri: https://www.airappliances/fonts/glyphicons-halflings-regular.woff2
+File Name: C:\Downloaded Web Sites\www.airappliances\fonts\glyphicons-halflings-regular.woff2
+Content Type: font/woff2
+
+Uri: https://www.airappliances/images/ac-repair-Kolkata.webp
+File Name: C:\Downloaded Web Sites\www.airappliances\images\ac-repair-Kolkata.webp
+Content Type: image/webp
+
+Uri: https://www.airappliances/images/acimg1.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\acimg1.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/acimg11.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\acimg11.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/acimg22.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\acimg22.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/acimg23.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\acimg23.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/acimg33.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\acimg33.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/brands/bluestar.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\brands\bluestar.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/brands/bosch.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\brands\bosch.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/brands/bpl.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\brands\bpl.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/brands/carrier.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\brands\carrier.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/brands/daikin.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\brands\daikin.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/brands/electrolux.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\brands\electrolux.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/brands/godrej.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\brands\godrej.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/brands/haier.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\brands\haier.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/brands/hitachi.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\brands\hitachi.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/brands/ifb.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\brands\ifb.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/brands/kelvinator.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\brands\kelvinator.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/brands/lg.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\brands\lg.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/brands/lloyd.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\brands\lloyd.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/brands/onida.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\brands\onida.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/brands/panasonic.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\brands\panasonic.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/brands/partner_bg.jpg
+File Name: C:\Downloaded Web Sites\www.airappliances\images\brands\partner_bg.jpg
+Content Type: image/jpeg
+
+Uri: https://www.airappliances/images/brands/samsung.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\brands\samsung.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/brands/sanyo.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\brands\sanyo.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/brands/siemens.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\brands\siemens.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/brands/sony.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\brands\sony.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/brands/toshiba.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\brands\toshiba.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/brands/videocon.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\brands\videocon.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/brands/voltas.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\brands\voltas.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/brands/whirlpool.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\brands\whirlpool.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/call.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\call.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/comp11.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\comp11.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/contact.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\contact.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/crt-tv.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\crt-tv.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/dark.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\dark.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/Kolkata-repair-service.webp
+File Name: C:\Downloaded Web Sites\www.airappliances\images\Kolkata-repair-service.webp
+Content Type: image/webp
+
+Uri: https://www.airappliances/images/Kolkata-repairs.webp
+File Name: C:\Downloaded Web Sites\www.airappliances\images\Kolkata-repairs.webp
+Content Type: image/webp
+
+Uri: https://www.airappliances/images/dr.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\dr.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/drlogo.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\drlogo.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/frz1.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\frz1.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/frz2.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\frz2.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/frz3.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\frz3.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/frz4.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\frz4.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/frz5.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\frz5.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/frz6.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\frz6.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/frz7.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\frz7.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/frz8.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\frz8.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/fz1.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\fz1.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/fz2.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\fz2.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/fz3.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\fz3.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/fz4.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\fz4.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/geyser11.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\geyser11.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/hline.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\hline.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/howwedeal.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\howwedeal.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/ico/favicon.ico
+File Name: C:\Downloaded Web Sites\www.airappliances\images\ico\favicon.ico
+Content Type: image/x-icon
+
+Uri: https://www.airappliances/images/image_bg.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\image_bg.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/kappliance11.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\kappliance11.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/lcd-tv.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\lcd-tv.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/lcd-tv2.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\lcd-tv2.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/led-tv2.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\led-tv2.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/list_check.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\list_check.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/logo222.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\logo222.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/map.jpg
+File Name: C:\Downloaded Web Sites\www.airappliances\images\map.jpg
+Content Type: image/jpeg
+
+Uri: https://www.airappliances/images/microwave-repair-Kolkata.webp
+File Name: C:\Downloaded Web Sites\www.airappliances\images\microwave-repair-Kolkata.webp
+Content Type: image/webp
+
+Uri: https://www.airappliances/images/microwave1.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\microwave1.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/microwave11.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\microwave11.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/microwave2.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\microwave2.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/microwave3.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\microwave3.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/microwave4.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\microwave4.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/mw1.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\mw1.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/mw2.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\mw2.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/mw3.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\mw3.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/mw4.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\mw4.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/page1-img12.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\page1-img12.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/page1-img22.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\page1-img22.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/plasma-tv2.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\plasma-tv2.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/refrigerator-repair-Kolkata.webp
+File Name: C:\Downloaded Web Sites\www.airappliances\images\refrigerator-repair-Kolkata.webp
+Content Type: image/webp
+
+Uri: https://www.airappliances/images/roimg11.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\roimg11.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/search_icon.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\search_icon.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/slider/ac-repair.jpg
+File Name: C:\Downloaded Web Sites\www.airappliances\images\slider\ac-repair.jpg
+Content Type: image/jpeg
+
+Uri: https://www.airappliances/images/slider/bg6.jpg
+File Name: C:\Downloaded Web Sites\www.airappliances\images\slider\bg6.jpg
+Content Type: image/jpeg
+
+Uri: https://www.airappliances/images/slider/microwave.jpg
+File Name: C:\Downloaded Web Sites\www.airappliances\images\slider\microwave.jpg
+Content Type: image/jpeg
+
+Uri: https://www.airappliances/images/slider/refrigerators.jpg
+File Name: C:\Downloaded Web Sites\www.airappliances\images\slider\refrigerators.jpg
+Content Type: image/jpeg
+
+Uri: https://www.airappliances/images/slider/super1.jpg
+File Name: C:\Downloaded Web Sites\www.airappliances\images\slider\super1.jpg
+Content Type: image/jpeg
+
+Uri: https://www.airappliances/images/slider/super2.jpg
+File Name: C:\Downloaded Web Sites\www.airappliances\images\slider\super2.jpg
+Content Type: image/jpeg
+
+Uri: https://www.airappliances/images/slider/super3.jpg
+File Name: C:\Downloaded Web Sites\www.airappliances\images\slider\super3.jpg
+Content Type: image/jpeg
+
+Uri: https://www.airappliances/images/slider/super4.jpg
+File Name: C:\Downloaded Web Sites\www.airappliances\images\slider\super4.jpg
+Content Type: image/jpeg
+
+Uri: https://www.airappliances/images/slider/tv-repair.jpg
+File Name: C:\Downloaded Web Sites\www.airappliances\images\slider\tv-repair.jpg
+Content Type: image/jpeg
+
+Uri: https://www.airappliances/images/smart-tv-repair.jpg
+File Name: C:\Downloaded Web Sites\www.airappliances\images\smart-tv-repair.jpg
+Content Type: image/jpeg
+
+Uri: https://www.airappliances/images/social-icons-set.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\social-icons-set.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/social-icons-set@2x.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\social-icons-set@2x.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/testimonials1.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\testimonials1.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/testimonials2.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\testimonials2.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/tv-repair-Kolkata.webp
+File Name: C:\Downloaded Web Sites\www.airappliances\images\tv-repair-Kolkata.webp
+Content Type: image/webp
+
+Uri: https://www.airappliances/images/tv1.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\tv1.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/tv2.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\tv2.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/tv3.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\tv3.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/tvinstall.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\tvinstall.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/wash1.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\wash1.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/wash2.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\wash2.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/wash3.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\wash3.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/wash4.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\wash4.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/wash5.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\wash5.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/wash6.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\wash6.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/wash7.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\wash7.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/wash8.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\wash8.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/washing-machine-repair-Kolkata.webp
+File Name: C:\Downloaded Web Sites\www.airappliances\images\washing-machine-repair-Kolkata.webp
+Content Type: image/webp
+
+Uri: https://www.airappliances/images/whatsapp.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\whatsapp.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/wm-1.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\wm-1.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/wm-2.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\wm-2.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/wm-3.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\wm-3.png
+Content Type: image/png
+
+Uri: https://www.airappliances/images/wm-4.png
+File Name: C:\Downloaded Web Sites\www.airappliances\images\wm-4.png
+Content Type: image/png
+
+Uri: https://www.airappliances/index.html
+File Name: C:\Downloaded Web Sites\www.airappliances\index.html
+Content Type: text/html
+
+Uri: https://www.airappliances/js/bootstrap.min.js
+File Name: C:\Downloaded Web Sites\www.airappliances\js\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://www.airappliances/js/jquery.isotope.min.js
+File Name: C:\Downloaded Web Sites\www.airappliances\js\jquery.isotope.min.js
+Content Type: application/javascript
+
+Uri: https://www.airappliances/js/jquery.prettyPhoto.js
+File Name: C:\Downloaded Web Sites\www.airappliances\js\jquery.prettyPhoto.js
+Content Type: application/javascript
+
+Uri: https://www.airappliances/js/main.js
+File Name: C:\Downloaded Web Sites\www.airappliances\js\main.js
+Content Type: application/javascript
+
+Uri: https://www.airappliances/legal.html
+File Name: C:\Downloaded Web Sites\www.airappliances\legal.html
+Content Type: text/html
+
+Uri: https://www.airappliances/locations.html
+File Name: C:\Downloaded Web Sites\www.airappliances\locations.html
+Content Type: text/html
+
+Uri: https://www.airappliances/microwave oven repair in Kolkata.html
+File Name: C:\Downloaded Web Sites\www.airappliances\microwave oven repair in Kolkata.html
+Content Type: text/html
+
+Uri: https://www.airappliances/refrigerator repair in Kolkata.html
+File Name: C:\Downloaded Web Sites\www.airappliances\refrigerator repair in Kolkata.html
+Content Type: text/html
+
+Uri: https://www.airappliances/tv repair in Kolkata.html
+File Name: C:\Downloaded Web Sites\www.airappliances\tv repair in Kolkata.html
+Content Type: text/html
+
+Uri: https://www.airappliances/washing machine repair in Kolkata.html
+File Name: C:\Downloaded Web Sites\www.airappliances\washing machine repair in Kolkata.html
+Content Type: text/html
+
