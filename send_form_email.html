@@ -1,37 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Redirecting to WhatsApp...</title>
 <script>
-window.addEventListener('DOMContentLoaded', () => {
-    // Get query parameters from URL
+(function() {
     const params = new URLSearchParams(window.location.search);
-
-    // Decode each parameter
-    const service = params.get('service') ? decodeURIComponent(params.get('service')) : '';
-    const type = params.get('type') ? decodeURIComponent(params.get('type')) : '';
-    const name = params.get('name') ? decodeURIComponent(params.get('name')) : '';
-    const phone = params.get('phone') ? decodeURIComponent(params.get('phone')) : '';
-    const city = params.get('city') ? decodeURIComponent(params.get('city')) : '';
+    const service = params.get('service') || '';
+    const type = params.get('type') || '';
+    const name = params.get('name') || '';
+    const phone = params.get('phone') || '';
+    const city = params.get('city') || '';
 
     if(service && type && name && phone && city) {
         const whatsappNumber = "918250791200";
-        // Encode the message properly for WhatsApp
         const message = encodeURIComponent(
             `New Service Booking:\nService: ${service}\nType: ${type}\nName: ${name}\nPhone: ${phone}\nLocation: ${city}`
         );
-        const whatsappURL = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${message}`;
-        // Redirect to WhatsApp
-        window.location.href = whatsappURL;
+        const whatsappURL = `https://wa.me/${whatsappNumber}?text=${message}`; // use wa.me link
+
+        // Use a small timeout to ensure redirect happens
+        setTimeout(() => {
+            window.location.replace(whatsappURL);
+        }, 100);
     } else {
         document.body.innerHTML = "<p>Missing form data. Please go back and submit the form properly.</p>";
     }
-});
+})();
 </script>
-</head>
-<body>
-<p>Redirecting to WhatsApp...</p>
-</body>
-</html>
