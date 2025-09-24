@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Service Booking</title>
+<style>
+    body { font-family: Arial, sans-serif; padding: 20px; background: #f2f2f2; }
+    form { max-width: 400px; margin: auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
+    label { display: block; margin-bottom: 5px; font-weight: bold; }
+    input, select { width: 100%; padding: 8px; margin-bottom: 15px; border-radius: 4px; border: 1px solid #ccc; }
+    button { padding: 10px 20px; border: none; border-radius: 4px; background: #25D366; color: #fff; font-size: 16px; cursor: pointer; }
+    button:hover { background: #128C7E; }
+</style>
+</head>
+<body>
+
+<h2>Book a Service</h2>
+<form id="serviceForm">
+    <label for="service">Service</label>
+    <input type="text" id="service" name="service" required>
+
+    <label for="type">Type</label>
+    <input type="text" id="type" name="type" required>
+
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="phone">Phone</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="city">City</label>
+    <input type="text" id="city" name="city" required>
+
+    <button type="submit">Book via WhatsApp</button>
+</form>
+
+<script>
+document.getElementById('serviceForm').addEventListener('submit', function(e) {
+    e.preventDefault(); // Prevent default form submission
+
+    // Get form values
+    const service = encodeURIComponent(document.getElementById('service').value);
+    const type = encodeURIComponent(document.getElementById('type').value);
+    const name = encodeURIComponent(document.getElementById('name').value);
+    const phone = encodeURIComponent(document.getElementById('phone').value);
+    const city = encodeURIComponent(document.getElementById('city').value);
+
+    // WhatsApp number with country code
+    const whatsappNumber = "918250791200";
+
+    // Construct WhatsApp message
+    const message = `New Service Booking:%0AService: ${service}%0AType: ${type}%0AName: ${name}%0APhone: ${phone}%0ALocation: ${city}`;
+
+    // Redirect to WhatsApp
+    const whatsappURL = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${message}`;
+    window.open(whatsappURL, '_blank');
+});
+</script>
+
+</body>
+</html>
