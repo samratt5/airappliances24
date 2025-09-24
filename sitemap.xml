@@ -1,72 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://sitemaps.org/schemas/sitemap/0.9
-            http://sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator xml-sitemaps.com -->
+<urlset 
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+                          http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-<url>
-  <loc>https://airappliances.in/</loc>
-  <lastmod>2025-09-24T14:47:50+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://airappliances.in/about</loc>
-  <lastmod>2025-09-24T14:47:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://airappliances.in/locations</loc>
-  <lastmod>2025-09-24T14:47:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://airappliances.in/washing-machine-repair-in-kolkata</loc>
-  <lastmod>2025-09-24T14:47:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://airappliances.in/microwave-oven-repair-in-kolkata</loc>
-  <lastmod>2025-09-24T14:47:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://airappliances.in/refrigerator-repair-in-kolkata</loc>
-  <lastmod>2025-09-24T14:47:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://airappliances.in/ac-repair-in-kolkata</loc>
-  <lastmod>2025-09-24T14:47:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://airappliances.in/microwave-repair-in-kolkata.html</loc>
-  <lastmod>2025-09-24T14:47:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://airappliances.in/legal</loc>
-  <lastmod>2025-09-24T14:47:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://airappliances.in/refrigeratorrepair-in-kolkata</loc>
-  <lastmod>2025-09-24T14:47:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://airappliances.in/tvrepair-in-kolkata</loc>
-  <lastmod>2025-09-24T14:47:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://airappliances.in/index.htm</loc>
-  <lastmod>2025-09-24T14:47:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+    <!-- created with Free Online Sitemap Generator xml-sitemaps.com -->
 
-
-
+    <url>
+        <loc>https://airappliances.in/</loc>
+        <lastmod>2025-09-24T14:47:50+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://airappliances.in/about</loc>
+        <lastmod>2025-09-24T14:47:50+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://airappliances.in/locations</loc>
+        <lastmod>2025-09-24T14:47:50+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://airappliances.in/washing-machine-repair-in-kolkata</loc>
+        <lastmod>2025-09-24T14:47:50+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://airappliances.in/microwave-oven-repair-in-kolkata</loc>
+        <lastmod>2025-09-24T14:47:50+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://airappliances.in/refrigerator-repair-in-kolkata</loc>
+        <lastmod>2025-09-24T14:47:50+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://airappliances.in/ac-repair-in-kolkata</loc>
+        <lastmod>2025-09-24T14:47:50+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://airappliances.in/microwave-repair-in-kolkata.html</loc>
+        <lastmod>2025-09-24T14:47:50+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://airappliances.in/legal</loc>
+        <lastmod>2025-09-24T14:47:50+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://airappliances.in/refrigeratorrepair-in-kolkata</loc>
+        <lastmod>2025-09-24T14:47:50+00:00</lastmod>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>https://airappliances.in/tvrepair-in-kolkata</loc>
+        <lastmod>2025-09-24T14:47:50+00:00</lastmod>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>https://airappliances.in/index.htm</loc>
+        <lastmod>2025-09-24T14:47:50+00:00</lastmod>
+        <priority>0.64</priority>
+    </url>
 </urlset>
