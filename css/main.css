@@ -4,7 +4,38 @@
 /*************************
 *******Typography******
 **************************/
+/* WhatsApp Button Styling Only */
+.btn-whatsapp {
+  display: inline-block;
+  background-color: rgba(129, 84, 0, 0.72);
+  color: #000000;
+  font-size: 17px;
+  font-weight: 800;
+  padding: 14px 28px;
+  border-radius: 200px;
+  text-decoration: none;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
 
+.btn-whatsapp:hover {
+  background-color: #ffffff;
+  box-shadow: 0 6px 20px rgba(255, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+
+.btn-whatsapp span {
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes pulse {
+  0% { transform: scale(0.8); opacity: 0.7; }
+  50% { transform: scale(1.2); opacity: 0; }
+  100% { transform: scale(0.8); opacity: 0.7; }
+}
 body {
   background: url(../images/dark.png) black;
   font-family: 'Open Sans', sans-serif;
