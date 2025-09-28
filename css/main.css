@@ -5,6 +5,80 @@
 *******Typography******
 **************************/
 /* WhatsApp Button Styling Only */
+
+
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.faq-column details {
+  border: 1px dotted #8a581e;
+  padding: 12px 15px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+/* Style summary and add arrow */
+.faq-column details summary {
+  font-weight: bold;
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+  padding-left: 25px; /* space for arrow */
+}
+
+/* Arrow using CSS pseudo-element */
+.faq-column details summary::before {
+  content: "▶"; /* right-pointing arrow */
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.3s ease;
+  color: #8a581e;
+}
+
+/* Rotate arrow when details is open */
+.faq-column details[open] summary::before {
+  transform: translateY(-50%) rotate(90deg); /* points down */
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .faq-grid {
+    grid-template-columns: 1fr;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .faq-column details {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .btn-whatsapp {
   display: inline-block;
   background-color: rgba(129, 84, 0, 0.72);
@@ -19,6 +93,36 @@
   position: relative;
   overflow: hidden;
 }
+
+.testimonials {
+    padding: 40px 20px;
+}
+.testimonials h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #f4f4f4;
+}
+.testimonials .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+.testimonials .grid div {
+    padding: 15px;
+    border: 2px dotted #bd6b21;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+.testimonials .grid div:hover {
+    transform: translateY(-5px);
+    background: #735a3d;
+}
+.testimonials p {
+    margin: 0;
+}
+
+
 
 .btn-whatsapp:hover {
   background-color: #ffffff;
@@ -936,6 +1040,54 @@ background:#f1f1f1;
   padding: 0;
 }
 
+
+
+
+
+.fridge-issues {
+    margin: 20px 0;
+    font-size: 15px;
+    line-height: 1.6;
+}
+.issue-box {
+    border: 1px dashed #c3a460;
+    border-radius: 3px;
+    padding: 15px 20px;
+    margin: 24px 0;
+}
+.issue-box ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.issue-box ul li {
+    margin-bottom: 2px;
+}
+.issue-box ul ul {
+    list-style-type: circle;
+    margin-top: 6px;
+    padding-left: 20px;
+}
+.issue-box strong {
+    color: #ddae5d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #recent-works{
     padding-top: 20px;
     background: url(../images/hline.png) left top repeat-x;
@@ -1243,36 +1395,6 @@ background:#f1f1f1;
   border-radius: 4px;
 }
 
-.testimonial h2{
-  margin-top: 0;
-}
-
-.testimonial-inner {
-  color:#858586;
-  font-size: 14px;
-}
-
-.testimonial-inner .pull-left{
-  border-right: 1px solid #e7e7e7;
-  padding-right: 15px;
-  position: relative;
-}
-
-.testimonial-inner .pull-left:after{
-  content: "";
-  position: absolute;
-  width: 9px;
-  height: 9px;
-  top: 50%;
-  margin-top: -5px;
-  background: #FFF;
-  -webkit-transform: rotate(45deg);
-  border: 1px solid #e7e7e7;
-  right: -5px;
-  border-left: 0 none;
-  border-bottom: 0 none;
-}
-
 #partner {
   background: url(../images/brands/partner_bg.jpg) 50% 50% no-repeat;
   background-size: cover;
@@ -1282,6 +1404,22 @@ background:#f1f1f1;
   color: #03A9F4;
   text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 #partner h3 {
   color: #FF9800;
