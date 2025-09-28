@@ -43,7 +43,7 @@
        <script type="text/javascript" src="ajax/libs/jquery/1.7.2/jquery.min.js"></script>
       <link rel="shortcut icon" href="images/ico/favicon.ico">
 
-    <script type="application/ld+json">
+          <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
@@ -129,50 +129,68 @@
   "review": [
     {
       "@type": "Review",
-      "author": "Sumit Podder",
+      "author": { "@type": "Person", "name": "Sumit Podder" },
       "reviewBody": "Airappliances Service Centre is a lifesaver! Their fast workers fixed my appliance in no time. The service was exceptional and the staff was friendly. Highly recommended!",
       "reviewRating": { "@type": "Rating", "ratingValue": 5, "bestRating": 5 }
     },
     {
       "@type": "Review",
-      "author": "Akash Mondal",
+      "author": { "@type": "Person", "name": "Akash Mondal" },
       "reviewBody": "My first experience with Airappliances service centre is outstanding. Very helpful service.",
       "reviewRating": { "@type": "Rating", "ratingValue": 5, "bestRating": 5 }
     },
     {
       "@type": "Review",
-      "author": "Alauddin Tarafder",
+      "author": { "@type": "Person", "name": "Alauddin Tarafder" },
       "reviewBody": "Excellent fridge repair at a great price. Quick and professional.",
       "reviewRating": { "@type": "Rating", "ratingValue": 5, "bestRating": 5 }
     }
   ],
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does fridge repair cost in Kolkata?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Starting at ₹299.00 for basic repair, with spare parts extra." }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you provide same-day service?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Yes, same-day doorstep service across Kolkata." }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you use genuine spare parts?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Yes, we use OEM parts for all repairs." }
-    },
-    {
-      "@type": "Question",
-      "name": "What is your service warranty?",
-      "acceptedAnswer": { "@type": "Answer", "text": "90-day warranty on all repairs." }
-    },
-    {
-      "@type": "Question",
-      "name": "Which areas do you cover?",
-      "acceptedAnswer": { "@type": "Answer", "text": "All Kolkata suburbs including Behala, Garia, and Salt Lake." }
-    }
-  ]
+  "mainEntityOfPage": {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much does fridge repair cost in Kolkata?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Starting at ₹299.00 for basic repair, with spare parts extra."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you provide same-day service?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, same-day doorstep service across Kolkata."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you use genuine spare parts?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, we use OEM parts for all repairs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is your service warranty?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "90-day warranty on all repairs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which areas do you cover?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "All Kolkata suburbs including Behala, Garia, and Salt Lake."
+        }
+      }
+    ]
+  }
 }
 </script>
 
