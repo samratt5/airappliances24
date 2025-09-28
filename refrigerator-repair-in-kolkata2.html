@@ -43,24 +43,30 @@
             top: 0;
             z-index: 1000;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 15px 0;
         }
         header .container {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
-            padding: 15px 20px;
+            flex-wrap: wrap;
         }
         header h1 {
-            font-size: 24px;
+            font-size: 28px;
             font-weight: bold;
+            margin: 10px 0;
         }
         header nav {
             display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 10px 0;
         }
         header nav a {
             color: #FFFFFF;
             text-decoration: none;
-            margin-left: 20px;
+            margin: 0 15px;
             font-size: 16px;
             transition: color 0.3s;
         }
@@ -75,6 +81,7 @@
             text-decoration: none;
             font-weight: bold;
             transition: background-color 0.3s;
+            margin: 10px;
         }
         header .cta-button:hover {
             background-color: #EAB308;
@@ -86,6 +93,7 @@
             cursor: pointer;
             color: #FFFFFF;
             font-size: 24px;
+            margin: 10px;
         }
         #mobile-menu {
             display: none;
@@ -95,6 +103,7 @@
             right: 0;
             background-color: #1E3A8A;
             padding: 10px 20px;
+            text-align: left;
         }
         #mobile-menu.show {
             display: block;
@@ -108,6 +117,16 @@
         }
         #mobile-menu a:hover {
             color: #FBBF24;
+        }
+        #mobile-menu .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            font-size: 24px;
+            background: none;
+            border: none;
+            color: #FFFFFF;
+            cursor: pointer;
         }
         .section {
             background-color: #FFFFFF;
@@ -250,6 +269,7 @@
             height: 150px;
             object-fit: contain;
             margin-bottom: 10px;
+            background-color: #000000;
         }
         .brand-services h3 {
             font-size: 18px;
@@ -385,8 +405,30 @@
         .sticky-cta {
             position: fixed;
             bottom: 20px;
+            left: 20px;
             right: 20px;
+            display: flex;
+            justify-content: space-between;
             z-index: 1000;
+        }
+        .sticky-cta a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: #FBBF24;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .sticky-cta a:hover {
+            background-color: #EAB308;
+        }
+        .sticky-cta a svg {
+            width: 30px;
+            height: 30px;
+            fill: #1E3A8A;
         }
         .kolkata-image {
             max-width: 100%;
@@ -396,8 +438,8 @@
         }
         @media (max-width: 768px) {
             header .container {
-                flex-wrap: wrap;
-                justify-content: space-between;
+                flex-direction: column;
+                align-items: center;
             }
             header nav {
                 display: none;
@@ -429,6 +471,20 @@
             .testimonials .grid {
                 grid-template-columns: 1fr;
             }
+            .sticky-cta {
+                flex-direction: column;
+                gap: 10px;
+                left: 10px;
+                right: 10px;
+            }
+            .sticky-cta a {
+                width: 50px;
+                height: 50px;
+            }
+            .sticky-cta a svg {
+                width: 25px;
+                height: 25px;
+            }
         }
     </style>
 </head>
@@ -448,6 +504,7 @@
             <button id="mobile-menu-btn">☰</button>
         </div>
         <div id="mobile-menu">
+            <button class="close-btn">×</button>
             <a href="/">Home</a>
             <a href="/washing-machine-repair">Washing Machine Repair</a>
             <a href="/microwave-repair">Microwave Repair</a>
@@ -459,7 +516,7 @@
 
     <main class="container">
         <section class="section hero text-center">
-            <img src="images/slider/refrigerators.jpg" alt="Refrigerator Repair Service in Kolkata" style="max-width: 800px;">
+            <img src="https://via.placeholder.com/600x400" alt="Refrigerator Repair Service in Kolkata" style="max-width: 800px;">
             <h1>Best Refrigerator Repair Services in Kolkata</h1>
             <p>Fast, reliable, and affordable fridge repair for all brands and models. Get same-day doorstep service with a 90-day warranty from our certified technicians.</p>
             <ul>
@@ -472,7 +529,7 @@
         </section>
 
         <div class="kolkata-image">
-            <img src="images/slider/refrigerators.jpg" alt="Kolkata Repair Services" class="img-responsive">
+            <img src="images/Kolkata-repair-service.webp" alt="Kolkata Repair Services" class="img-responsive">
         </div>
 
         <div class="trust-booking">
@@ -577,37 +634,115 @@
 
         <section class="section services">
             <h2>Expert Refrigerator Repair in Kolkata</h2>
-            <p>At Airappliances Kolkata, we provide top-notch refrigerator repair services across Kolkata, specializing in all major brands including Samsung, LG, Whirlpool, Godrej, Hitachi, and more. Our certified technicians offer same-day doorstep service with a 90-day warranty, ensuring your fridge operates at peak performance. Whether it's a minor cooling issue or a complex compressor fault, we deliver fast, reliable, and affordable solutions tailored to your needs.</p>
+            <p>At Airappliances Kolkata, we have been delivering top-notch refrigerator repair services across the city since 2015. Our team of certified technicians specializes in repairing all major brands, including Samsung, LG, Whirlpool, Godrej, Hitachi, and more. We offer same-day doorstep service with a 90-day warranty, ensuring your fridge operates at peak efficiency. Whether you're dealing with a minor cooling issue, a noisy compressor, or a complete breakdown, our experts provide fast, reliable, and affordable solutions tailored to your needs.</p>
+            <p>Our commitment to customer satisfaction sets us apart. With over 5,137 successful bookings and a 4.8-star rating from 4,940 reviews, we are Kolkata's trusted choice for appliance repairs. We use genuine spare parts and advanced diagnostic tools to ensure long-lasting repairs, saving you time and money in the long run.</p>
             <div class="grid">
                 <article>
                     <img src="https://via.placeholder.com/600x400" alt="Single Door Fridge Repair Kolkata">
                     <h3>Single Door Fridge Repair</h3>
-                    <p>Our expert technicians quickly diagnose and fix issues like poor cooling, noisy operation, or electrical faults in single-door fridges, ensuring minimal disruption to your daily routine.</p>
-                    <p>Service Charge: <s>₹400</s> <strong>₹299</strong> (Spare parts extra)</p>
+                    <p>Our technicians quickly diagnose and fix issues like poor cooling, noisy operation, or electrical faults in single-door fridges, minimizing disruption to your daily routine.</p>
+                    <p>Service Charge: <s>₹400.00</s> <strong>₹299.00</strong> (Spare parts extra)</p>
                     <a href="/book-now" class="cta-button">Book Now</a>
                 </article>
                 <article>
                     <img src="https://via.placeholder.com/600x400" alt="Double Door Fridge Repair Kolkata">
                     <h3>Double Door Fridge Repair</h3>
-                    <p>We provide efficient repairs for double-door refrigerators, addressing issues like water leaks, inconsistent cooling, or ice maker malfunctions with precision and care.</p>
-                    <p>Service Charge: <s>₹500</s> <strong>₹399</strong> (Spare parts extra)</p>
+                    <p>We provide efficient repairs for double-door refrigerators, addressing water leaks, inconsistent cooling, or ice maker malfunctions with precision and care.</p>
+                    <p>Service Charge: <s>₹500.00</s> <strong>₹399.00</strong> (Spare parts extra)</p>
                     <a href="/book-now" class="cta-button">Book Now</a>
                 </article>
                 <article>
                     <img src="https://via.placeholder.com/600x400" alt="Side by Side Fridge Repair Kolkata">
                     <h3>Side by Side Fridge Repair</h3>
-                    <p>Specialized service for side-by-side, multi-door, and French-door fridges, ensuring optimal performance for large refrigeration units with advanced features.</p>
-                    <p>Service Charge: <s>₹600</s> <strong>₹499</strong> (Spare parts extra)</p>
+                    <p>Specialized service for side-by-side, multi-door, and French-door fridges, ensuring optimal performance for large units with advanced features.</p>
+                    <p>Service Charge: <s>₹600.00</s> <strong>₹499.00</strong> (Spare parts extra)</p>
                     <a href="/book-now" class="cta-button">Book Now</a>
                 </article>
                 <article>
                     <img src="https://via.placeholder.com/600x400" alt="Commercial Fridge Repair Kolkata">
                     <h3>Commercial Fridge Repair</h3>
-                    <p>Professional maintenance for commercial refrigeration units in restaurants, offices, and retail spaces, ensuring uninterrupted operation for your business.</p>
-                    <p>Service Charge: <s>₹800</s> <strong>₹699</strong> (Spare parts extra)</p>
+                    <p>Professional maintenance for commercial refrigeration units in restaurants, offices, and retail spaces, ensuring uninterrupted operation.</p>
+                    <p>Service Charge: <s>₹800.00</s> <strong>₹699.00</strong> (Spare parts extra)</p>
                     <a href="/book-now" class="cta-button">Book Now</a>
                 </article>
             </div>
+        </section>
+
+        <section class="section common-problems">
+            <h2>Common Refrigerator Problems (Causes & Quick Checks)</h2>
+            <p>Refrigerators are essential household appliances, but they can encounter issues over time. Understanding common problems, their causes, and quick checks can help you decide when to call a professional. Here are the most frequent issues we address at Airappliances Kolkata:</p>
+            <ul>
+                <li><strong>Refrigerator Not Cooling</strong>
+                    <ul>
+                        <li><strong>Cause:</strong> Low refrigerant, dirty condenser coils, or a faulty compressor.</li>
+                        <li><strong>Quick Check:</strong> Ensure the thermostat is set correctly (3–5°C) and clean the coils if accessible. If the problem persists, contact us.</li>
+                    </ul>
+                </li>
+                <li><strong>Strange Noises</strong>
+                    <ul>
+                        <li><strong>Cause:</strong> Worn-out motor, loose components, or defrost issues.</li>
+                        <li><strong>Quick Check:</strong> Check for loose items inside the fridge and ensure it’s level. Persistent noise requires expert attention.</li>
+                    </ul>
+                </li>
+                <li><strong>Leaking Water</strong>
+                    <ul>
+                        <li><strong>Cause:</strong> Clogged defrost drain or damaged water lines.</li>
+                        <li><strong>Quick Check:</strong> Inspect the drain pan and clear any blockages with warm water. Seek professional help for leaks.</li>
+                    </ul>
+                </li>
+                <li><strong>Ice Maker Not Working</strong>
+                    <ul>
+                        <li><strong>Cause:</strong> Frozen lines or defective valves.</li>
+                        <li><strong>Quick Check:</strong> Ensure the water supply is on and the freezer is cold enough (-18°C). Call for repairs if needed.</li>
+                    </ul>
+                </li>
+                <li><strong>Freezer Not Freezing</strong>
+                    <ul>
+                        <li><strong>Cause:</strong> Blocked vents, defrost system failure, or compressor issues.</li>
+                        <li><strong>Quick Check:</strong> Rearrange items to clear vents and check the temperature setting. Professional diagnosis is recommended.</li>
+                    </ul>
+                </li>
+            </ul>
+            <p>These quick checks can help identify minor issues, but for complex repairs, our technicians are just a call away at +91 8250791200.</p>
+        </section>
+
+        <section class="section brand-specific-issues">
+            <h2>Brand-Specific Refrigerator Issues</h2>
+            <p>Different refrigerator brands may exhibit unique problems due to their design and technology. Our experts at Airappliances Kolkata are trained to handle brand-specific challenges:</p>
+            <ul>
+                <li><strong>Samsung:</strong> Frequent issues include ice maker malfunctions and fan motor failures. We replace defective parts with genuine Samsung components.</li>
+                <li><strong>LG:</strong> LG models may experience control board errors or poor cooling due to sensor issues. Our diagnostics ensure accurate fixes.</li>
+                <li><strong>Whirlpool:</strong> Common problems include water dispenser leaks and compressor noise. We address these with precision repairs.</li>
+                <li><strong>Godrej:</strong> Older models may have gasket wear or cooling inconsistencies, which we resolve with durable replacements.</li>
+                <li><strong>Hitachi:</strong> Inverter models can face power supply issues; our technicians recalibrate systems for optimal performance.</li>
+            </ul>
+            <p>With expertise across 24 major brands, we ensure tailored solutions for every model, enhancing longevity and efficiency.</p>
+        </section>
+
+        <section class="section what-to-expect">
+            <h2>What to Expect from Our Visit</h2>
+            <p>At Airappliances Kolkata, we prioritize a seamless and transparent service experience. Here’s what you can expect when our technicians visit:</p>
+            <ul>
+                <li><strong>Prompt Arrival:</strong> We aim for same-day service, arriving within a 2-hour window after your booking.</li>
+                <li><strong>Thorough Diagnosis:</strong> Our technicians use advanced tools to identify the root cause of the problem.</li>
+                <li><strong>Transparent Pricing:</strong> You’ll receive a detailed cost estimate before any work begins, with no hidden fees.</li>
+                <li><strong>Efficient Repair:</strong> Most repairs are completed in 1-2 hours, using genuine spare parts with a 90-day warranty.</li>
+                <li><strong>Cleanup:</strong> We leave your space clean and test the fridge to ensure it’s working perfectly.</li>
+                <li><strong>Follow-Up:</strong> We contact you within 48 hours to confirm your satisfaction and address any concerns.</li>
+            </ul>
+            <p>Our goal is to make your repair process stress-free and reliable, backed by our commitment to excellence.</p>
+        </section>
+
+        <section class="section before-after-photos">
+            <h2>Before and After Photos</h2>
+            <p>Visual proof of our expertise! See the transformation of refrigerators we’ve repaired across Kolkata:</p>
+            <div class="grid">
+                <div><img src="https://via.placeholder.com/300x200" alt="Before Repair - Leaking Fridge"></div>
+                <div><img src="https://via.placeholder.com/300x200" alt="After Repair - Fixed Fridge"></div>
+                <div><img src="https://via.placeholder.com/300x200" alt="Before Repair - No Cooling"></div>
+                <div><img src="https://via.placeholder.com/300x200" alt="After Repair - Cooling Restored"></div>
+            </div>
+            <p>These images showcase our ability to restore functionality and aesthetics, giving you confidence in our services.</p>
         </section>
 
         <section class="section testimonials">
@@ -657,95 +792,95 @@
             <p>We service all leading refrigerator brands with genuine spare parts and expert care.</p>
             <div class="grid">
                 <div>
-                    <img src="images/brands/lg.png" alt="LG Refrigerator Repair Kolkata">
+                    <img src="/images/logo222.png" alt="LG Refrigerator Repair Kolkata">
                     <h3>LG</h3>
                 </div>
                 <div>
-                    <img src="images/brands/samsung.png" alt="Samsung Refrigerator Repair Kolkata">
+                    <img src="/images/logo222.png" alt="Samsung Refrigerator Repair Kolkata">
                     <h3>Samsung</h3>
                 </div>
                 <div>
-                    <img src="images/brands/whirlpool.png" alt="Whirlpool Refrigerator Repair Kolkata">
+                    <img src="/images/logo222.png" alt="Whirlpool Refrigerator Repair Kolkata">
                     <h3>Whirlpool</h3>
                 </div>
                 <div>
-                    <img src="images/brands/videocon.png" alt="Videocon Refrigerator Service Kolkata">
+                    <img src="/images/logo222.png" alt="Videocon Refrigerator Service Kolkata">
                     <h3>Videocon</h3>
                 </div>
                 <div>
-                    <img src="images/brands/godrej.png" alt="Godrej Refrigerator Service Kolkata">
+                    <img src="/images/logo222.png" alt="Godrej Refrigerator Service Kolkata">
                     <h3>Godrej</h3>
                 </div>
                 <div>
-                    <img src="images/brands/haier.png" alt="Haier Refrigerator Repair Kolkata">
+                    <img src="/images/logo222.png" alt="Haier Refrigerator Repair Kolkata">
                     <h3>Haier</h3>
                 </div>
                 <div>
-                    <img src="images/brands/ifb.png" alt="IFB Refrigerator Service Kolkata">
+                    <img src="/images/logo222.png" alt="IFB Refrigerator Service Kolkata">
                     <h3>IFB</h3>
                 </div>
                 <div>
-                    <img src="images/brands/panasonic.png" alt="Panasonic Refrigerator Repair Kolkata">
+                    <img src="/images/logo222.png" alt="Panasonic Refrigerator Repair Kolkata">
                     <h3>Panasonic</h3>
                 </div>
                 <div>
-                    <img src="images/brands/bosch.png" alt="Bosch Refrigerator Service Kolkata">
+                    <img src="/images/logo222.png" alt="Bosch Refrigerator Service Kolkata">
                     <h3>Bosch</h3>
                 </div>
                 <div>
-                    <img src="images/brands/bluestar.png" alt="Blue Star Refrigerator Repair Kolkata">
+                    <img src="/images/logo222.png" alt="Blue Star Refrigerator Repair Kolkata">
                     <h3>Blue Star</h3>
                 </div>
                 <div>
-                    <img src="images/brands/bpl.png" alt="BPL Refrigerator Service Kolkata">
+                    <img src="/images/logo222.png" alt="BPL Refrigerator Service Kolkata">
                     <h3>BPL</h3>
                 </div>
                 <div>
-                    <img src="images/brands/hitachi.png" alt="Hitachi Refrigerator Repair Kolkata">
+                    <img src="/images/logo222.png" alt="Hitachi Refrigerator Repair Kolkata">
                     <h3>Hitachi</h3>
                 </div>
                 <div>
-                    <img src="images/brands/electrolux.png" alt="Electrolux Refrigerator Service Kolkata">
+                    <img src="/images/logo222.png" alt="Electrolux Refrigerator Service Kolkata">
                     <h3>Electrolux</h3>
                 </div>
                 <div>
-                    <img src="images/brands/kelvinator.png" alt="Kelvinator Refrigerator Repair Kolkata">
+                    <img src="/images/logo222.png" alt="Kelvinator Refrigerator Repair Kolkata">
                     <h3>Kelvinator</h3>
                 </div>
                 <div>
-                    <img src="images/brands/lloyd.png" alt="Lloyd Refrigerator Service Kolkata">
+                    <img src="/images/logo222.png" alt="Lloyd Refrigerator Service Kolkata">
                     <h3>Lloyd</h3>
                 </div>
                 <div>
-                    <img src="images/brands/onida.png" alt="Onida Refrigerator Repair Kolkata">
+                    <img src="/images/logo222.png" alt="Onida Refrigerator Repair Kolkata">
                     <h3>Onida</h3>
                 </div>
                 <div>
-                    <img src="images/brands/carrier.png" alt="Carrier Refrigerator Service Kolkata">
+                    <img src="/images/logo222.png" alt="Carrier Refrigerator Service Kolkata">
                     <h3>Carrier</h3>
                 </div>
                 <div>
-                    <img src="images/brands/sanyo.png" alt="Sanyo Refrigerator Repair Kolkata">
+                    <img src="/images/logo222.png" alt="Sanyo Refrigerator Repair Kolkata">
                     <h3>Sanyo</h3>
                 </div>
                 <div>
-                    <img src="images/brands/sony.png" alt="Sony Refrigerator Service Kolkata">
+                    <img src="/images/logo222.png" alt="Sony Refrigerator Service Kolkata">
                     <h3>Sony</h3>
                 </div>
                 <div>
-                    <img src="images/brands/siemens.png" alt="Siemens Refrigerator Repair Kolkata">
+                    <img src="/images/logo222.png" alt="Siemens Refrigerator Repair Kolkata">
                     <h3>Siemens</h3>
                 </div>
                 <div>
-                    <img src="images/brands/toshiba.png" alt="Toshiba Refrigerator Service Kolkata">
+                    <img src="/images/logo222.png" alt="Toshiba Refrigerator Service Kolkata">
                     <h3>Toshiba</h3>
                 </div>
                 <div>
-                    <img src="images/brands/voltas.png" alt="Voltas Refrigerator Repair Kolkata">
+                    <img src="/images/logo222.png" alt="Voltas Refrigerator Repair Kolkata">
                     <h3>Voltas</h3>
                 </div>
                 <div>
-                    <img src="images/brands/daikin.png" alt="Daikin Refrigerator Service Kolkata">
+                    <img src="/images/logo222.png" alt="Daikin Refrigerator Service Kolkata">
                     <h3>Daikin</h3>
                 </div>
             </div>
@@ -810,7 +945,7 @@
                 <li><strong>Defrost Regularly:</strong> Avoid ice buildup in the freezer to maintain optimal freezing performance.</li>
                 <li><strong>Monitor Temperature:</strong> Set your fridge to 3–5°C and freezer to -18°C for best results and energy savings.</li>
                 <li><strong>Avoid Overloading:</strong> Overfilling can block air vents, leading to uneven cooling and spoilage.</li>
-                <li><strong>Schedule Annual Maintenance:</strong> Book our ₹499 annual service to keep your fridge in top condition.</li>
+                <li><strong>Schedule Annual Maintenance:</strong> Book our ₹499.00 annual service to keep your fridge in top condition.</li>
             </ul>
             <a href="/book-now" class="cta-button">Book Maintenance Service</a>
         </section>
@@ -829,37 +964,37 @@
                 <tbody>
                     <tr>
                         <td>Single Door Refrigerator Repair</td>
-                        <td>299</td>
+                        <td>₹299.00</td>
                         <td>Fast repair for single-door fridges with 90-day warranty.</td>
                     </tr>
                     <tr>
                         <td>Double Door Refrigerator Repair</td>
-                        <td>399</td>
+                        <td>₹399.00</td>
                         <td>Expert repair for cooling and electrical faults.</td>
                     </tr>
                     <tr>
                         <td>Side by Side / French Door Repair</td>
-                        <td>499</td>
+                        <td>₹499.00</td>
                         <td>Professional service for large fridges.</td>
                     </tr>
                     <tr>
                         <td>Commercial Refrigerator Repair</td>
-                        <td>699</td>
+                        <td>₹699.00</td>
                         <td>Specialized service for commercial units.</td>
                     </tr>
                     <tr>
                         <td>Ice Maker / Freezer Repair</td>
-                        <td>299–499</td>
+                        <td>₹299.00–₹499.00</td>
                         <td>Fixes for defrost and temperature issues.</td>
                     </tr>
                     <tr>
                         <td>Electrical / Compressor Repair</td>
-                        <td>399–599</td>
+                        <td>₹399.00–₹599.00</td>
                         <td>Safe repair for electrical and motor issues.</td>
                     </tr>
                     <tr>
                         <td>Maintenance & Annual Service</td>
-                        <td>499</td>
+                        <td>₹499.00</td>
                         <td>Preventive maintenance to extend fridge lifespan.</td>
                     </tr>
                 </tbody>
@@ -872,7 +1007,7 @@
                 <div>
                     <details>
                         <summary>How much does fridge repair cost in Kolkata?</summary>
-                        <p>Starting at ₹299 for basic repair, with spare parts extra.</p>
+                        <p>Starting at ₹299.00 for basic repair, with spare parts extra.</p>
                     </details>
                     <details>
                         <summary>Do you provide same-day service?</summary>
@@ -961,6 +1096,25 @@
             <p>We provide expert fridge repair services in all major areas of Kolkata, ensuring quick and reliable solutions for both residential and commercial clients. Our technicians are available in locations such as Alipore, Ballygunge, Park Street, Salt Lake, New Town, Rajarhat, Dum Dum, Belgharia, Baranagar, Howrah, Behala, Garia, Jadavpur, Dhakuria, Jodhpur Park, Tollygunge, Lake Market, New Alipore, Kasba, Santoshpur, Baghajatin, Narendrapur, Sonarpur, Baruipur, Maheshtala, Thakurpukur, Parnasree, Joka, Sodepur, Agarpara, Titagarh, Khardah, Panihati, Bally, South Dum Dum, North Dum Dum, Rajpur, Bidhan Nagar, and more. Contact us for doorstep service anywhere in Kolkata.</p>
             <a href="/contact" class="cta-button">Contact Us for Service</a>
         </section>
+
+        <section class="section technician-bio">
+            <h2>Meet Our Expert Technicians</h2>
+            <div class="grid">
+                <div>
+                    <h3>Rahul Sharma</h3>
+                    <p>With 10 years of experience, Rahul specializes in LG and Samsung repairs. Certified by the Indian Refrigeration Academy, he ensures precision and customer satisfaction.</p>
+                </div>
+                <div>
+                    <h3>Arun Patel</h3>
+                    <p>Arun brings 8 years of expertise in Whirlpool and Hitachi models. Known for his quick diagnostics, he’s a favorite among Kolkata clients.</p>
+                </div>
+                <div>
+                    <h3>Sneha Gupta</h3>
+                    <p>Sneha, with 6 years in the field, excels in commercial fridge repairs. Her attention to detail guarantees long-lasting solutions.</p>
+                </div>
+            </div>
+            <p>Our team is trained to handle all refrigerator types, ensuring you receive the best service possible.</p>
+        </section>
     </main>
 
     <footer>
@@ -1008,106 +1162,5 @@
     </footer>
 
     <div class="sticky-cta">
-        <a href="tel:+918250791200" class="cta-button" style="padding: 15px 30px; font-size: 18px;">Call Now</a>
-    </div>
-
-    <!-- Schema Markup -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "AirAppliances Kolkata",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Kolkata",
-        "addressRegion": "West Bengal",
-        "addressCountry": "IN"
-      },
-      "telephone": "+91-8250791200",
-      "url": "https://airappliances.in/refrigerator-repair-in-kolkata",
-      "priceRange": "₹299+",
-      "description": "Expert refrigerator repair in Kolkata with same-day doorstep service for all brands. Serving Alipore, Ballygunge, Salt Lake, and more with a 90-day warranty.",
-      "service": [
-        {"@type": "Service", "name": "Refrigerator Repair"},
-        {"@type": "Service", "name": "AC Repair"},
-        {"@type": "Service", "name": "Washing Machine Repair"},
-        {"@type": "Service", "name": "Microwave Repair"}
-      ],
-      "areaServed": [
-        "Alipore", "Ballygunge", "Park Street", "Salt Lake", "New Town", "Rajarhat", "Dum Dum", "Belgharia", "Baranagar", "Howrah", "Behala", "Garia", "Jadavpur", "Dhakuria", "Jodhpur Park", "Tollygunge", "Lake Market", "New Alipore", "Kasba", "Santoshpur", "Baghajatin", "Narendrapur", "Sonarpur", "Baruipur", "Maheshtala", "Thakurpukur", "Parnasree", "Joka", "Sodepur", "Agarpara", "Titagarh", "Khardah", "Panihati", "Bally", "South Dum Dum", "North Dum Dum", "Rajpur", "Bidhan Nagar"
-      ],
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "reviewCount": "4940"
-      },
-      "review": [
-        {"@type": "Review", "reviewRating": {"@type": "Rating", "ratingValue": "5"}, "author": {"@type": "Person", "name": "Sourav"}},
-        {"@type": "Review", "reviewRating": {"@type": "Rating", "ratingValue": "4.8"}, "author": {"@type": "Person", "name": "Priya"}}
-      ]
-    }
-    </script>
-    <!-- FAQ Schema -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {"@type": "Question", "name": "How much does fridge repair cost in Kolkata?", "acceptedAnswer": {"@type": "Answer", "text": "Starting at ₹299 for basic repair, with spare parts extra."}},
-        {"@type": "Question", "name": "Do you provide same-day service?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, same-day doorstep service across Kolkata."}},
-        {"@type": "Question", "name": "Do you use genuine spare parts?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, we use OEM parts for all repairs."}},
-        {"@type": "Question", "name": "What is your service warranty?", "acceptedAnswer": {"@type": "Answer", "text": "90-day warranty on all repairs."}},
-        {"@type": "Question", "name": "Which areas do you cover?", "acceptedAnswer": {"@type": "Answer", "text": "All Kolkata suburbs including Behala, Garia, and Salt Lake."}},
-        {"@type": "Question", "name": "How long does a repair take?", "acceptedAnswer": {"@type": "Answer", "text": "Typically 1-2 hours, depending on the issue."}},
-        {"@type": "Question", "name": "Do you repair commercial fridges?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, we service commercial and residential units."}},
-        {"@type": "Question", "name": "Can I book online?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, use our WhatsApp form or call us."}},
-        {"@type": "Question", "name": "What brands do you service?", "acceptedAnswer": {"@type": "Answer", "text": "LG, Samsung, Whirlpool, Godrej, and more."}},
-        {"@type": "Question", "name": "Do you offer maintenance plans?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, quarterly plans available for prevention."}},
-        {"@type": "Question", "name": "Why is my fridge door not closing properly?", "acceptedAnswer": {"@type": "Answer", "text": "Faulty gaskets or misaligned hinges may be the cause. We replace seals or adjust hinges for a perfect fit."}},
-        {"@type": "Question", "name": "Can you fix a fridge that’s icing up?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, we address defrost system issues or thermostat faults to prevent ice buildup."}},
-        {"@type": "Question", "name": "What if my fridge smells bad?", "acceptedAnswer": {"@type": "Answer", "text": "We clean interior components and check for spoiled food or clogged drains to eliminate odors."}},
-        {"@type": "Question", "name": "Do you service inverter fridges?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, we handle inverter and non-inverter models with specialized care."}},
-        {"@type": "Question", "name": "Why is my fridge’s light not working?", "acceptedAnswer": {"@type": "Answer", "text": "We replace faulty bulbs or repair wiring issues to restore lighting functionality."}},
-        {"@type": "Question", "name": "Can you repair old fridge models?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, we service both modern and older models with compatible parts."}},
-        {"@type": "Question", "name": "What causes high electricity bills from my fridge?", "acceptedAnswer": {"@type": "Answer", "text": "Faulty compressors or poor insulation may be the issue. We optimize efficiency to reduce power usage."}},
-        {"@type": "Question", "name": "Do you provide emergency repair services?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, we offer urgent repairs for critical issues, often same-day."}},
-        {"@type": "Question", "name": "Can you relocate my fridge safely?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, we offer professional fridge shifting services to prevent damage."}},
-        {"@type": "Question", "name": "How often should I service my fridge?", "acceptedAnswer": {"@type": "Answer", "text": "Annual maintenance is recommended to ensure optimal performance."}}
-      ]
-    }
-    </script>
-
-    <!-- Inline JavaScript -->
-    <script>
-        // Mobile Menu Toggle
-        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
-        const mobileMenu = document.getElementById('mobile-menu');
-        mobileMenuBtn.addEventListener('click', () => {
-            mobileMenu.classList.toggle('show');
-        });
-
-        // Form Validation
-        const form = document.getElementById('booking-form');
-        const errorMsg = document.getElementById('form-error');
-        form.addEventListener('submit', (e) => {
-            const phone = document.getElementById('phone').value;
-            const phoneRegex = /^[6-9]\d{9}$/;
-            if (!phoneRegex.test(phone)) {
-                e.preventDefault();
-                errorMsg.style.display = 'block';
-                errorMsg.textContent = 'Please enter a valid 10-digit phone number.';
-            } else {
-                errorMsg.style.display = 'none';
-            }
-        });
-
-        // Smooth Scroll for Internal Links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', (e) => {
-                e.preventDefault();
-                document.querySelector(anchor.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
-            });
-        });
-    </script>
-</body>
-</html>
+        <a href="https://wa.me/918250791200?text=Hello,%20I%20need%20refrigerator%20repair%20service%20in%20Kolkata.">
+            <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.347.297-.520.099-.174.148-.223.148-.223l-.009.009c.004.004.019-.001.019-.001.297-.148.458-.347.638-.52.149-.174.223-.348.298-.523.074-.174.148-.297.297-.445.15-.148.23-.223.388-.223.146 0 .298.074
