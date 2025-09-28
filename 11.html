@@ -7,10 +7,10 @@
     <meta name="description" content="Expert AC repair in Kolkata with same-day service, genuine parts, and affordable prices. Call 8250791200 for window, split, and commercial AC repairs!">
     <meta name="keywords" content="AC repair in Kolkata, air conditioner service, AC servicing, AC gas filling, AC installation, Kolkata AC repair">
     <meta name="robots" content="index, follow">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/responsive.css">
-    <link rel="stylesheet" href="/css/social-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/social-icons.css">
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -43,46 +43,58 @@
     </script>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html">Airappliances Kolkata</a>
-                </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="washing-machine-repair-in-kolkata.html">Washing Machine Repair</a></li>
-                        <li><a href="microwave-oven-repair-in-kolkata.html">Microwave Repair</a></li>
-                        <li><a href="refrigerator-repair-in-kolkata.html">Fridge Repair</a></li>
-                        <li class="active"><a href="ac-repair-in-kolkata.html">Air Conditioner Repair</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
             </div>
-        </nav>
-        <div class="container">
-            <div class="top-number con_no">
-                <h4 class="con_no"><a href="tel:+918250791200">Call Us: +91 8250791200</a></h4>
+            <div class="col-sm-6">
+                <div class="top-number con_no">
+                    <h4 class="con_no"><a href="tel:+918250791200">Call Us: +91 8250791200</a></h4>
+                </div>
             </div>
         </div>
-    </header>
+    </div>
 
-    <section id="main-slider" class="carousel slide">
-        <div class="carousel-inner">
-            <div class="item active">
-                <div class="container">
-                    <div class="carousel-content">
-                        <h1 class="orange">AC Repair, Install & Service in Kolkata</h1>
-                        <h3>AC Repairing | AC Installation | AC Servicing | AC Gas Filling</h3>
-                        <a href="tel:+918250791200" class="btn btn-primary">Call Now: 8250791200</a>
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="washing-machine-repair-in-kolkata.html">Washing Machine Repair</a></li>
+                <li><a href="microwave-oven-repair-in-kolkata.html">Microwave Repair</a></li>
+                <li><a href="refrigerator-repair-in-kolkata.html">Fridge Repair</a></li>
+                <li class="active"><a href="ac-repair-in-kolkata.html">Air Conditioner Repair</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <section id="main-slider" class="no-margin">
+        <div class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-12">
+                                <div class="carousel-content center">
+                                    <h1 class="orange">AC Repair, Install & Service in Kolkata</h1>
+                                    <h3>AC Repairing | AC Installation | AC Servicing | AC Gas Filling</h3>
+                                    <a href="tel:+918250791200" class="btn btn-primary">8250791200</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -91,88 +103,94 @@
 
     <section id="Schedule">
         <div class="container">
-            <h2>Schedule A Service Online</h2>
-            <form id="main-contact-form" name="contact-form" method="post" action="send_form_email.html">
-                <div class="form-group">
-                    <label for="service">Select Service*</label>
-                    <select name="service" class="form-control" required>
-                        <option value="AC Repairing">AC Repairing</option>
-                        <option value="AC Installation">AC Installation</option>
-                        <option value="AC Servicing">AC Servicing</option>
-                        <option value="AC Shifting">AC Shifting</option>
-                        <option value="AC AMC">AC AMC</option>
-                        <option value="AC Accessories">AC Accessories</option>
-                        <option value="Other Service">Other Service</option>
-                    </select>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>Schedule A Service Online</h2>
+                    <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="send_form_email.html">
+                        <div class="form-group">
+                            <label>Tell us a little more*</label>
+                            <select name="service" class="form-control" required>
+                                <option value="AC Repairing">AC Repairing</option>
+                                <option value="AC Installation">AC Installation</option>
+                                <option value="AC Servicing">AC Servicing</option>
+                                <option value="AC Shifting">AC Shifting</option>
+                                <option value="AC AMC">AC AMC</option>
+                                <option value="AC Accessories">AC Accessories</option>
+                                <option value="Other Service">Other Service</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Select Type</label>
+                            <select name="type" class="form-control" required>
+                                <option value="Window AC">Window AC</option>
+                                <option value="Split AC">Split AC</option>
+                                <option value="Central AC">Central AC</option>
+                                <option value="Cassette AC">Cassette AC</option>
+                                <option value="Packaged AC">Packaged AC</option>
+                                <option value="Tower AC">Tower AC</option>
+                                <option value="Portable AC">Portable AC</option>
+                                <option value="Commercial AC">Commercial AC</option>
+                                <option value="I Don't Know My Type">I Don't Know My Type</option>
+                                <option value="Other Type">Other Type</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Your Personal Details</label>
+                            <input type="text" name="name" class="form-control" placeholder="Name" required>
+                            <input type="email" name="email" class="form-control" placeholder="Email" required>
+                            <input type="tel" name="phone" class="form-control" placeholder="Phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Location</label>
+                            <select name="location" class="form-control" required>
+                                <option value="New Kolkata">New Kolkata</option>
+                                <option value="South Kolkata">South Kolkata</option>
+                                <option value="East Kolkata">East Kolkata</option>
+                                <option value="West Kolkata">West Kolkata</option>
+                                <option value="North Kolkata">North Kolkata</option>
+                                <option value="Central Kolkata">Central Kolkata</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" name="agree" required> I agree to Airappliances Kolkata <a href="terms.html">terms of use</a>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                    </form>
                 </div>
-                <div class="form-group">
-                    <label for="type">Select Type*</label>
-                    <select name="type" class="form-control" required>
-                        <option value="Window AC">Window AC</option>
-                        <option value="Split AC">Split AC</option>
-                        <option value="Central AC">Central AC</option>
-                        <option value="Cassette AC">Cassette AC</option>
-                        <option value="Packaged AC">Packaged AC</option>
-                        <option value="Tower AC">Tower AC</option>
-                        <option value="Portable AC">Portable AC</option>
-                        <option value="Commercial AC">Commercial AC</option>
-                        <option value="I Don't Know My Type">I Don't Know My Type</option>
-                        <option value="Other Type">Other Type</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label>Your Personal Details</label>
-                    <input type="text" name="name" class="form-control" placeholder="Name" required>
-                    <input type="email" name="email" class="form-control" placeholder="Email" required>
-                    <input type="tel" name="phone" class="form-control" placeholder="Phone" required>
-                </div>
-                <div class="form-group">
-                    <label for="location">Location*</label>
-                    <select name="location" class="form-control" required>
-                        <option value="New Kolkata">New Kolkata</option>
-                        <option value="South Kolkata">South Kolkata</option>
-                        <option value="East Kolkata">East Kolkata</option>
-                        <option value="West Kolkata">West Kolkata</option>
-                        <option value="North Kolkata">North Kolkata</option>
-                        <option value="Central Kolkata">Central Kolkata</option>
-                        <option value="Other">Other</option>
-                    </select>
-                </div>
-                <div class="form-group useragree">
-                    <input type="checkbox" name="agree" required> I agree to Airappliances Kolkata <a href="terms.html">terms of use</a>
-                </div>
-                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
-            </form>
+            </div>
         </div>
     </section>
 
     <section id="services">
         <div class="container">
-            <div class="center">
-                <h2>Expert AC Repair Services in Kolkata - Fast & Affordable</h2>
-                <p>Looking for reliable <strong>AC repair in Kolkata</strong>? Airappliances Kolkata offers professional AC servicing, gas filling, and installation at competitive prices. Our skilled technicians ensure same-day service and 100% customer satisfaction. Call <a href="tel:+918250791200">8250791200</a> for quick, affordable service at your doorstep.</p>
+            <div class="row">
+                <div class="col-sm-12 center">
+                    <h2>Expert AC Repair Services in Kolkata - Fast & Affordable</h2>
+                    <p>Looking for expert <strong>AC repair in Kolkata</strong>? Get professional <a href="ac-repair-in-kolkata.html#servicing">AC servicing</a>, gas filling, and <a href="ac-repair-in-kolkata.html#installation">installation</a> at the best prices. Our skilled technicians ensure same-day service and 100% customer satisfaction. Call <a href="tel:+918250791200">8250791200</a> for quick & affordable service at your doorstep.</p>
+                </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-sm-4">
                     <h3>AC Repair In Kolkata</h3>
-                    <p>We provide fast, secure, and quality repair services for all air conditioner brands in Kolkata. Get the best price for <a href="ac-repair-in-kolkata.html">AC repairing</a> at your doorstep.</p>
+                    <p>We offer fast, secure & quality repair services on all air conditioners (AC) brands in Kolkata. Find the best price <a href="ac-repair-in-kolkata.html">AC repairing</a> at your doorstep.</p>
                     <img src="images/ac-repair.jpg" alt="AC repair technician in Kolkata fixing a split AC" loading="lazy" class="img-responsive">
                 </div>
-                <div class="col-md-4">
-                    <h3>AC Installation In Kolkata</h3>
-                    <p>Enjoy hassle-free <a href="ac-repair-in-kolkata.html#installation">air conditioning installation</a> with Kolkata’s top AC experts. Our technicians ensure smooth, quiet, and efficient performance.</p>
+                <div class="col-sm-4">
+                    <h3>AC Install In Kolkata</h3>
+                    <p>Enjoy hassle-free <a href="ac-repair-in-kolkata.html#installation">air conditioning installation</a> with Kolkata’s top AC experts. Our professional technicians ensure smooth, quiet, and efficient performance for your AC.</p>
                     <img src="images/ac-installation.jpg" alt="Professional AC installation in Kolkata for window AC" loading="lazy" class="img-responsive">
                 </div>
-                <div class="col-md-4">
+                <div class="col-sm-4">
                     <h3>AC Servicing In Kolkata</h3>
-                    <p>Get factory-standard <a href="ac-repair-in-kolkata.html#servicing">AC servicing</a> for window and split ACs. Experience jet foam cleaning for deep, efficient cooling.</p>
+                    <p>Get factory-standard <a href="ac-repair-in-kolkata.html#servicing">AC servicing</a> for Window & Split ACs by Kolkata’s top professionals. Experience jet foam cleaning for deep, efficient cooling.</p>
                     <img src="images/ac-servicing.jpg" alt="AC servicing in Kolkata with jet foam cleaning" loading="lazy" class="img-responsive">
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12">
-                    <h3>Commercial AC Services In Kolkata</h3>
-                    <p>Expert AC repair and services for multi-unit central ACs and commercial HVAC units in Kolkata. Contact us for reliable solutions.</p>
+                <div class="col-sm-12">
+                    <h3>Commercial AC Services in Kolkata</h3>
+                    <p>Find expert <a href="ac-repair-in-kolkata.html#commercial">AC repair & services</a> for any HVAC project in Kolkata — whether it's a multi-unit central AC for your home/office or a larger commercial HVAC unit.</p>
                     <img src="images/commercial-ac.jpg" alt="Commercial AC repair in Kolkata for office HVAC" loading="lazy" class="img-responsive">
                 </div>
             </div>
@@ -181,52 +199,40 @@
 
     <section id="content">
         <div class="container">
-            <h2>Air Conditioner Repair & Service in Kolkata</h2>
-            <p>When the summer heat in Kolkata rises, a reliable air conditioner is essential. Airappliances Kolkata provides prompt, professional, and cost-effective solutions for <strong>AC repair near me</strong>, <strong>air conditioner service</strong>, and <strong>aircon servicing</strong>. Our certified technicians handle:</p>
-            <ul>
-                <li>Poor cooling and thermostat issues</li>
-                <li>Water leakage and clogged filters</li>
-                <li>Unusual noises and compressor problems</li>
-                <li>Refrigerant leaks and electrical faults</li>
-            </ul>
-            <p>We service all AC types—split, window, cassette, tower, packaged, ductless mini-splits, and commercial systems—covering brands like Voltas, Daikin, LG, Samsung, Carrier, Blue Star, Godrej, Panasonic, and Mitsubishi. Our <a href="ac-repair-in-kolkata.html#installation">AC installation</a> services ensure optimal cooling and energy efficiency.</p>
-            <h3>Why Choose Us?</h3>
-            <ul>
-                <li>Same-day service across Kolkata</li>
-                <li>Genuine spare parts with warranty</li>
-                <li>Affordable <a href="ac-repair-in-kolkata.html#pricing">AC servicing charges</a></li>
-                <li>Certified technicians for all brands</li>
-            </ul>
+            <h2>AIR CONDITIONER REPAIR & SERVICE IN KOLKATA</h2>
+            <p>When the summer heat in Kolkata rises, having a reliable AC is essential. If you are searching for <strong>AC repair near me</strong>, <strong>air conditioner repair near me</strong>, or <strong>aircon service near me</strong>, Airappliances Kolkata provides prompt, professional, and cost-effective solutions. Our team of skilled <a href="ac-repair-in-kolkata.html">air conditioning technicians</a> offers a wide array of services including <a href="ac-repair-in-kolkata.html#servicing">AC service and repair near me</a>, <a href="ac-repair-in-kolkata.html">air conditioner service and repair</a>, aircon repair service, and air conditioning servicing. From routine maintenance to major repairs and <a href="ac-repair-in-kolkata.html#installation">installation</a>, we ensure your air conditioning systems function efficiently and deliver maximum cooling.</p>
+            <p>Our <a href="ac-repair-in-kolkata.html">AC repair service near me</a> includes fixing common AC problems such as poor cooling, water leakage, unusual noises, compressor issues, clogged filters, refrigerant leaks, thermostat malfunctions, and electrical faults. We also provide preventive maintenance and <a href="ac-repair-in-kolkata.html#servicing">aircon servicing</a> to prevent future breakdowns and extend the lifespan of your units. Whether you need to <a href="ac-repair-in-kolkata.html">fix air conditioner near me</a> or schedule a routine <a href="ac-repair-in-kolkata.html#servicing">service AC near me</a>, our technicians bring the experience and tools necessary to get the job done quickly and efficiently. We service all types of ACs including split, window, cassette, tower, packaged, ductless mini-splits, and commercial central systems, covering major brands like Voltas, Daikin, LG, Samsung, Carrier, Blue Star, Godrej, Panasonic, and Mitsubishi Electric.</p>
+            <p>For those looking for <a href="ac-repair-in-kolkata.html#installation">air conditioner installation near me</a> or air conditioning installation, Airappliances Kolkata ensures professional setup for optimal cooling and energy efficiency. We handle both residential and commercial installations, including <a href="ac-repair-in-kolkata.html#installation">aircon installation near me</a> for multiple units. Every installation is performed with precision to avoid leaks, ensure proper airflow, and optimize energy consumption. Our team also offers advice on maximizing the performance of your AC units, reducing electricity bills, and maintaining indoor comfort during the hottest months.</p>
+            <p>In addition to repairs and installation, we offer <a href="refrigerator-repair-in-kolkata.html">refrigerator repair in Kolkata</a>, making it a complete home comfort solution. Customers searching for <a href="ac-repair-in-kolkata.html">AC repair and service</a>, <a href="ac-repair-in-kolkata.html">air conditioner repair service near me</a>, or <a href="ac-repair-in-kolkata.html">fix air conditioner</a> can trust our team for fast, professional, and friendly support. We ensure transparent pricing, timely service, and customized maintenance plans that improve energy efficiency.</p>
         </div>
     </section>
 
     <section id="faqs">
         <div class="container">
-            <h2>Frequently Asked Questions</h2>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-sm-12">
                     <h3>How much does AC repair service cost in Kolkata?</h3>
-                    <p>Costs vary by issue. Basic <a href="ac-repair-in-kolkata.html#servicing">AC service</a> starts at ₹199, while gas refilling, compressor replacement, or PCB repairs may cost more. We provide upfront estimates for transparency.</p>
+                    <p>Costs vary depending on the issue. Basic <a href="ac-repair-in-kolkata.html#servicing">AC service near me</a> starts at ₹199, while repairs such as gas refilling, compressor replacement, and PCB repairs have additional charges. Our technicians provide an upfront estimate before starting any work.</p>
                 </div>
-                <div class="col-md-6">
-                    <h3>Do you offer a warranty on AC repairs?</h3>
-                    <p>Yes, we offer a 90-day warranty on spare parts and service work, ensuring peace of mind for all customers.</p>
+                <div class="col-sm-12">
+                    <h3>Do you offer any warranty on your AC repair services?</h3>
+                    <p>Yes! We offer a 90-day warranty on spare parts and service work. Our <a href="ac-repair-in-kolkata.html">AC repair service</a> warranty ensures peace of mind and reliability for all customers.</p>
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-12">
                     <h3>How can I book an AC repair service?</h3>
-                    <p>Call <a href="tel:+918250791200">8250791200</a> or use our online form above. Our team schedules prompt appointments across Kolkata.</p>
+                    <p>Booking is easy! Call us at <a href="tel:+918250791200">8250791200</a> or fill out the contact form on our website. Our <a href="ac-repair-in-kolkata.html#servicing">best AC service near me</a> team will schedule your appointment promptly.</p>
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-12">
                     <h3>Why is my AC not cooling properly?</h3>
-                    <p>Common causes include low refrigerant, dirty filters, or compressor issues. Our technicians diagnose and fix these problems quickly.</p>
+                    <p>Common causes include low refrigerant, dirty filters, or compressor issues. Our technicians diagnose and fix these problems quickly to restore cooling efficiency.</p>
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-12">
                     <h3>Do you service commercial ACs in Kolkata?</h3>
-                    <p>Yes, we specialize in <a href="ac-repair-in-kolkata.html#commercial">commercial AC repair</a> for offices, hotels, and large HVAC systems.</p>
+                    <p>Yes, we specialize in <a href="ac-repair-in-kolkata.html#commercial">commercial AC repair</a> for offices, hotels, and large HVAC systems, ensuring reliable performance.</p>
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-12">
                     <h3>How often should I service my AC?</h3>
-                    <p>We recommend servicing your AC every 6 months to maintain efficiency and prevent breakdowns.</p>
+                    <p>We recommend servicing your AC every 6 months to maintain efficiency, prevent breakdowns, and extend its lifespan.</p>
                 </div>
             </div>
         </div>
@@ -234,13 +240,15 @@
 
     <section id="blog">
         <div class="container">
-            <h2>AC Maintenance Tips</h2>
             <div class="row">
-                <div class="col-md-6">
-                    <h3>How to Maintain Your AC in Kolkata</h3>
-                    <p>Regular maintenance extends your AC’s lifespan. Clean filters monthly, check for leaks, and schedule professional servicing biannually. <a href="blog/ac-maintenance-tips.html">Read more</a>.</p>
+                <div class="col-sm-12 center">
+                    <h2>AC Maintenance Tips</h2>
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-6">
+                    <h3>How to Maintain Your AC in Kolkata</h3>
+                    <p>Regular maintenance extends your AC’s lifespan. Clean filters monthly, check for leaks, and schedule professional <a href="ac-repair-in-kolkata.html#servicing">servicing</a> biannually. <a href="blog/ac-maintenance-tips.html">Read more</a>.</p>
+                </div>
+                <div class="col-sm-6">
                     <h3>Common AC Problems and Fixes</h3>
                     <p>From water leaks to poor cooling, learn how to identify and address common AC issues. <a href="blog/ac-problems-fixes.html">Read more</a>.</p>
                 </div>
@@ -250,23 +258,26 @@
 
     <section id="locations">
         <div class="container">
-            <h2>AC Repair Services Near Me</h2>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-sm-12 center">
+                    <h2>AC Repair Service Near Me</h2>
+                    <p>AC repair service at your doorstep in Kolkata – connect with our expert AC technicians in Kolkata at <a href="tel:+918250791200">8250791200</a>. We are your trusted choice for reliable, fast, and professional <a href="ac-repair-in-kolkata.html">AC repair and servicing in Kolkata</a>. Whether it’s a split AC, window AC, or inverter AC, our skilled technicians provide same-day service, comprehensive maintenance, and affordable <a href="ac-repair-in-kolkata.html#pricing">AC servicing charges in Kolkata</a>.</p>
+                </div>
+                <div class="col-sm-12">
                     <h3>AC Repair in Salt Lake</h3>
-                    <p>Expert AC repair in Salt Lake, Sector I-V, Karunamoyee, City Centre, and more. Same-day service for all brands. <a href="tel:+918250791200">Call now</a>.</p>
+                    <p>Expert AC repair in Salt Lake | Sector I | Sector II | Sector III | Sector IV | Karunamoyee | City Centre | Labony | HB Block | EE Block | BF Block | Tank No. 9 | Bidhannagar | Nicco Park | Central Park | Sector V | Technopolis. Our <a href="ac-repair-in-kolkata.html">AC service centre in Salt Lake</a> provides same-day AC repair, gas filling, and maintenance with professional AC technicians in Kolkata.</p>
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-12">
                     <h3>AC Repair in Garia</h3>
-                    <p>Reliable AC service in Garia, Kamalgazi, Patuli, Narendrapur, and surrounding areas. Affordable gas filling and repairs.</p>
+                    <p>Reliable AC service in Garia | Garia Station Road | Boral | Kamalgazi | Patuli | Baishnabghata | New Garia | Narendrapur | Hiland Park | Kavi Nazrul Metro | Bramhapur | Panchasayar | Ganguly Bagan. We offer doorstep <a href="ac-repair-in-kolkata.html">AC repair in Kolkata</a>, split AC installation, window AC servicing, and AC gas refilling at affordable charges.</p>
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-12">
                     <h3>AC Repair in Behala</h3>
-                    <p>Trusted AC repair in Behala, Parnasree, Thakurpukur, Joka, and more. Fast, professional service at your doorstep.</p>
+                    <p>Trusted AC repair service in Behala | Parnasree | Sakherbazar | Thakurpukur | Chowrasta | Silpara | Taratala | Manton | Behala Chowrasta | Diamond Park | Maheshtala | Sarsuna | Joka | IIM Joka | Purba Putiary. Our Kolkata <a href="ac-repair-in-kolkata.html">AC service centre</a> ensures fast AC servicing, cooling problem solutions, and split AC gas filling charges at the best price.</p>
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-12">
                     <h3>AC Repair in Dum Dum</h3>
-                    <p>Professional AC repair in Dum Dum, Nagerbazar, Birati, Madhyamgram, and nearby areas. Same-day solutions for all AC types.</p>
+                    <p>Professional AC repair in Dum Dum | Dum Dum Cantt | Nagerbazar | Motijheel | Satgachi | Airport Gate No. 1 | Airport Gate No. 2 | Birati | Madhyamgram | New Barrackpore | Barasat | BT Road | Belgharia | Agarpara | Kamarhati | Panihati | Khardaha | Titagarh | Barrackpore | Shyamnagar | Ichapur. Get same-day <a href="ac-repair-in-kolkata.html">AC service in Kolkata</a> by experienced AC technicians for all brands like LG, Samsung, Voltas, Whirlpool, and more.</p>
                 </div>
             </div>
         </div>
@@ -274,19 +285,55 @@
 
     <section id="brands">
         <div class="container">
-            <h2>AC Service Centers in Kolkata</h2>
-            <ul class="columns">
-                <li>LG AC Service Center</li>
-                <li>Samsung AC Service Center</li>
-                <li>Carrier AC Service Center</li>
-                <li>Daikin AC Service Center</li>
-                <li>Voltas AC Service Center</li>
-                <li>Blue Star AC Service Center</li>
-                <li>Godrej AC Service Center</li>
-                <li>Panasonic AC Service Center</li>
-                <li>Mitsubishi AC Service Center</li>
-                <li>Hitachi AC Service Center</li>
-            </ul>
+            <div class="row">
+                <div class="col-sm-12 center">
+                    <h2>AC Service Center</h2>
+                    <ul class="columns">
+                        <li>LG AC Service Center in Kolkata</li>
+                        <li>Samsung AC Service Center in Kolkata</li>
+                        <li>Carrier AC Service Center in Kolkata</li>
+                        <li>Toshiba AC Service Center in Kolkata</li>
+                        <li>Videocon AC Service Center in Kolkata</li>
+                        <li>Haier AC Service Center in Kolkata</li>
+                        <li>Daikin AC Service Center in Kolkata</li>
+                        <li>Voltas AC Service Center in Kolkata</li>
+                        <li>Electrolux AC Service Center in Kolkata</li>
+                        <li>Sanyo AC Service Center in Kolkata</li>
+                        <li>Hitachi AC Service Center in Kolkata</li>
+                        <li>Sansui AC Service Center in Kolkata</li>
+                        <li>Micromax AC Service Center in Kolkata</li>
+                        <li>Blue Star AC Service Center in Kolkata</li>
+                        <li>Onida AC Service Center in Kolkata</li>
+                        <li>Godrej AC Service Center in Kolkata</li>
+                        <li>Lloyd AC Service Center in Kolkata</li>
+                        <li>Mitashi AC Service Center in Kolkata</li>
+                        <li>Whirlpool AC Service Center in Kolkata</li>
+                        <li>IFB AC Service Center in Kolkata</li>
+                        <li>Hyundai AC Service Center in Kolkata</li>
+                        <li>Panasonic AC Service Center in Kolkata</li>
+                        <li>O General AC Service Center in Kolkata</li>
+                        <li>Mitsubishi AC Service Center in Kolkata</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="call-now" class="customercare">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="customercall">Call us now</h2>
+                    <h3 class="customercall">24x7 AC Customer Care</h3>
+                    <h4 class="con_no"><a href="tel:+918250791200">(+91) 8250791200</a> | <a href="tel:+918250791200">8250791200</a></h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3>For your suggestion</h3>
+                    <p><a href="mailto:support@airappliances.in">support@airappliances.in</a></p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -300,12 +347,14 @@
                         <dd>Airappliances Kolkata</dd>
                         <dt>Address</dt>
                         <dd>Dumdum Nager Bazar, Kolkata, 700074</dd>
+                        <dt>Category</dt>
+                        <dd>Appliance Repair Services</dd>
                         <dt>Phone</dt>
                         <dd><a href="tel:+918250791200">8250791200</a></dd>
                         <dt>Hours</dt>
                         <dd>Monday - Sunday, 8:00 AM - 9:00 PM</dd>
                         <dt>Website</dt>
-                        <dd><a href="https://airappliances.in">airappliances.in</a></dd>
+                        <dd><a href="https://airappliances.in">https://airappliances.in</a></dd>
                     </dl>
                 </div>
                 <div class="col-sm-6">
@@ -329,17 +378,19 @@
                 <div class="col-sm-6">
                     <ul class="pull-right">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
                         <li><a href="terms.html">Terms & Conditions</a></li>
                         <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="copyrights.html">Copyrights</a></li>
+                        <li><a href="dmca.html">DMCA Policy</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
 
-    <a id="whatsappbtn" href="https://wa.me/918250791200"><img src="images/whatsapp.png" alt="WhatsApp Contact for AC Repair" loading="lazy"></a>
+    <a id="whatsappbtn" href="https://wa.me/918250791200"><img src="images/whatsapp.png" alt="WhatsApp Contact for AC Repair in Kolkata" loading="lazy"></a>
     <a id="callbtn" href="tel:+918250791200"><img src="images/call.png" alt="Call Airappliances Kolkata for AC Repair" loading="lazy"></a>
 </body>
 </html>
